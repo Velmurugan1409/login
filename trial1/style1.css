@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+header {
+	height: 30vh;
+	/* background: #000; */
+}
+.black {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+nav {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	top: 0;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: #fff;
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	margin: 5px 10px;
+}
+nav ul li a {
+	padding: 2px 10px;
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #fff;
+	border-radius: 5px;
+	background: #4481eb;
+}
+.active {
+	color: #fff;
+	border-radius: 5px;
+	background: #4481eb;
+}
+
+a, button {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #2E3D49;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+.front
+{
+    text-align: center;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para1
+{
+   text-align: center;
+   font-size: 20px;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.but1
+{
+    margin-top: 40px;
+    font-size: 15px;
+    border: 2px solid #4481eb;
+    background-color: #4481eb;
+    margin-left: 30%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 13px;
+    display: inline-block;
+}
+.but2
+{
+    
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 50px;
+   
+}
